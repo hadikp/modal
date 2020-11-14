@@ -28,11 +28,11 @@ okey.addEventListener('click', function () {
     console.log('true');
 })
 
-//window.addEventListener("click", backToMain);
-/* if (modal.style.display === 'block') {
+/* window.addEventListener("click", backToMain);
+ if (modal.style.display === 'block') {
     window.addEventListener("click", () => {
         body.setAttribute("style", "background-color: none");
         modal.setAttribute("style", "display: none");
     });
-} */
+}  */
 
