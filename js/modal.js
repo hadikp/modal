@@ -1,13 +1,13 @@
 const button = document.querySelector(".button__modal");
-const body = document.querySelector('body');
+const body = document.querySelector('body');    
 const modal = document.querySelector('.modal');
+var d = document.getElementsByClassName('modal');
+
+
 button.addEventListener('click', function () {
     body.setAttribute("style", "background-color: rgba(128, 128, 128, 0.5)");
     modal.setAttribute("style", "display: block");
-    modal.focus();
-    /*modal.setAttribute("style", "transform: translate(0px, 15vw)");
-    modal.setAttribute("style", "-ms-transform: translate(0px, 15vw)");    
-    modal.setAttribute("style", "transition: all 5s ease-in-out");  */    
+    // d.focus();
 })
 
 const backToMain = () => {

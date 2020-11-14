@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <section class="modal fade-in">
+    <section class="modal">
         <i class="fa fa-times"></i>
         <header class="modal__header">
             <h1>CSSScript.com</h1>
@@ -28,12 +28,12 @@
                 dolorum.</p>
         </section>
         <footer>
-            <button class="modal__okey">Okey</button>
-            <button class="modal__cancel">Cancel</button>
+            <button class="modal__okey" tabindex="1">Okey</button>
+            <button class="modal__cancel" tabindex="2">Cancel</button>
         </footer>
     </section>
     <section>
-        <button class="button__modal">modal</button>
+        <button class="button__modal" tabindex="-1">Kattints Rám!</button>
     </section>
 
     <script src="js/modal.js"></script>
